@@ -1,0 +1,121 @@
+/* Définition des polices personnalisées */
+
+@font-face {
+  font-family:"lato-regular";
+  src: url("../font/lato-regular.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family:"lato-black";
+  src: url("../font/lato-black.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family:"lato-light";
+  src: url("../font/lato-light.ttf") format("TrueType");
+}
+
+
+
+body {
+  margin:0;
+  padding: 0;
+}
+
+#home-top {
+  height:100vh;
+  background-image: url(../images/chees.jpg);
+  background-repeat: no-repeat;
+  zoom:0.8;
+  overflow: hidden;
+}
+
+  #home-top h1 {
+    color:#FFFFFF;
+    font-size:70px;
+    font-family:lato-black;
+    margin-left:10%;
+    margin-top: 0;
+    padding-top:20%;
+  }
+
+    #home-top p {
+      color:#FFFFFF;
+      font-size:41px;
+      font-family: lato-regular;
+      margin-left: 10%;
+      margin-top: -60px;
+
+    }
+
+/* deuxieme section */
+
+#home-how-does {
+  width:100%;
+  height:100vh;
+  background-color: #FFFFFF;
+  background-image: url(../images/women-kit.png);
+  background-repeat:no-repeat;
+  background-size: 600px;
+  background-position-x: 111%;
+  background-position-y:center;
+  animation-duration: 1s;
+  animation-name: slideinRight;
+}
+
+@keyframes slideinRight {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+  .container {
+    width:500px;
+    height:100%;
+    padding-top: 6%;
+    margin-left: 15%;
+}
+
+    .container h1 {
+      font-size:65px;
+      font-family: lato-black;
+      line-height: 60px;
+    }
+
+    .container p {
+      font-size:26px;
+      font-family:lato-light;
+    }
+
+/* trosieme section */
+
+#home-video {
+  width:100%;
+  height:80vh;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+
+  video {
+    right: 0;
+    bottom: 0;
+    zoom: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+  }
+
+
+/* quatrième section */
+
+#home-campaign {
+  width:100%;
+  height:100vh;
+  background-color:rgb(240,216,133);
+}
+
+/* derniere section */
